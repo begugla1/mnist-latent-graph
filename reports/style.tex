@@ -1,0 +1,30 @@
+\usepackage[a4paper,left=22mm,right=22mm,top=20mm,bottom=21mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont[Scale=0.87]{Consolas}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{graphicx,booktabs,tabularx,array}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{needspace}
+\usepackage[unicode,colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\graphicspath{{../figures/}}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\setlist{nosep,leftmargin=1.7em,topsep=4pt}
+\captionsetup{font=small,labelfont=bf}
+\newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\N}{\mathcal{N}}
+\DeclareMathOperator{\MSE}{MSE}
+\DeclareMathOperator{\Std}{Std}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\clip}{clip}
+\newcommand{\titleblock}[2]{\begin{center}{\Large\bfseries #1\par}\vspace{5pt}{\normalsize #2\par}\end{center}\vspace{4pt}}

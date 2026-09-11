@@ -1,0 +1,38 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.tools/
+.mplcache/
+.pytest_cache/
+.vscode/
+.DS_Store
+
+# External datasets and generated experiment artifacts
+data/
+datasets/
+results/
+reruns/
+smoke_run/
+checks/
+*.zip
+*.tar
+*.gz
+*.7z
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.idx*-ubyte
+
+# TeX auxiliary output (keep final and figure PDFs)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+reports/*.pdf

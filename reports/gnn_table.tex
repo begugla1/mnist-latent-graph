@@ -1,0 +1,19 @@
+\begin{table}[H]\centering
+\small
+\caption{Test accuracy и парная разность к эталону (п.п.).}
+\begin{tabular}{@{}llcc@{}}\toprule
+Модель & Граф & Accuracy & $\Delta$ к решётке \\
+\midrule
+GCN & Решётка & $0.894 \pm 0.012$ & $0.00 \pm 0.00$ \\
+GCN & Восстановленный & $0.889 \pm 0.011$ & $-0.51 \pm 0.09$ \\
+GCN & Correlation top-$E$ & $0.892 \pm 0.013$ & $-0.23 \pm 0.14$ \\
+GCN & Случайный & $0.447 \pm 0.158$ & $-44.73 \pm 17.04$ \\
+GCN & Неверная решётка & $0.464 \pm 0.062$ & $-43.03 \pm 7.18$ \\
+GraphSAGE & Решётка & $0.911 \pm 0.002$ & $0.00 \pm 0.00$ \\
+GraphSAGE & Восстановленный & $0.900 \pm 0.007$ & $-1.16 \pm 0.74$ \\
+GraphSAGE & Correlation top-$E$ & $0.898 \pm 0.011$ & $-1.33 \pm 0.99$ \\
+GraphSAGE & Случайный & $0.657 \pm 0.139$ & $-25.43 \pm 14.13$ \\
+GraphSAGE & Неверная решётка & $0.726 \pm 0.047$ & $-18.50 \pm 4.86$ \\
+\bottomrule
+\end{tabular}
+\end{table}
